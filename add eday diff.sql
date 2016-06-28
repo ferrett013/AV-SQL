@@ -1,0 +1,43 @@
+alter table early_voters.ce18_2008 add column eday_diff int;
+alter table early_voters.ce18_2009 add column eday_diff int;
+alter table early_voters.ce18_2010 add column eday_diff int;
+alter table early_voters.ce18_2011 add column eday_diff int;
+alter table early_voters.ce18_2012 add column eday_diff int;
+alter table early_voters.ce18_2013 add column eday_diff int;
+alter table early_voters.ce18_2014 add column eday_diff int;
+alter table early_voters.ce18_2015 add column eday_diff int;
+alter table early_voters.ce18_primary2010 add column eday_diff int;
+alter table early_voters.ce18_primary2012 add column eday_diff int;
+alter table early_voters.ce18_primary2014 add column eday_diff int;
+
+update early_voters.ce18_2008 set eday_diff = '2008-11-04'-received;
+update early_voters.ce18_2009 set eday_diff = '2009-11-03'-received;
+update early_voters.ce18_2010 set eday_diff = '2010-11-02'-received;
+update early_voters.ce18_2011 set eday_diff = '2011-11-08'-received;
+update early_voters.ce18_2012 set eday_diff = '2012-11-06'-received;
+update early_voters.ce18_2013 set eday_diff = '2013-11-05'-received;
+update early_voters.ce18_2014 set eday_diff = '2014-11-04'-received;
+update early_voters.ce18_2015 set eday_diff = '2015-11-03'-received;
+update early_voters.ce18_primary2010 set eday_diff = '2010-08-10'-received;
+update early_voters.ce18_primary2012 set eday_diff = '2012-06-26'-received;
+update early_voters.ce18_primary2014 set eday_diff = '2014-06-24'-received;
+
+alter table early_voters.ce19_2009 add column eday_diff int;
+alter table early_voters.ce19_2010 add column eday_diff int;
+alter table early_voters.ce19_2011 add column eday_diff int;
+alter table early_voters.ce19_2012 add column eday_diff int;
+alter table early_voters.ce19_2014 add column eday_diff int;
+alter table early_voters.ce19_2015 add column eday_diff int;
+alter table early_voters.ce19_primary2010 add column eday_diff int;
+alter table early_voters.ce19_primary2012 add column eday_diff int;
+alter table early_voters.ce19_primary2014 add column eday_diff int;
+
+update early_voters.ce19_2009 set eday_diff = '2009-11-03'-early_vote_date;
+update early_voters.ce19_2010 set eday_diff = '2010-11-02'-early_vote_date;
+update early_voters.ce19_2011 set eday_diff = '2011-11-08'-early_vote_date;
+update early_voters.ce19_2012 set eday_diff = '2012-11-06'-early_vote_date;
+update early_voters.ce19_2014 set eday_diff = '2014-11-04'-vote_date;
+update early_voters.ce19_2015 set eday_diff = '2015-11-03'-vote_date;
+update early_voters.ce19_primary2010 set eday_diff = '2010-08-10'-early_vote_date;
+update early_voters.ce19_primary2012 set eday_diff = '2012-06-26'-early_vote_date;
+update early_voters.ce19_primary2014 set eday_diff = '2014-06-24'-vote_time;
