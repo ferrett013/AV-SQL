@@ -1,11 +1,11 @@
-DROP TABLE IF EXISTS voterfiles_sos.split_junemid2016;
-CREATE TABLE voterfiles_sos.split_junemid2016 (COUNTY text
-,PRECINCT_CODE numeric
-,SPLIT_CODE text
-,DISTRICT_CODE text
-,DISTRICT_TYPE text
-,DISTRICT_NAME text
+drop table if exists voterfiles_sos.split_march2017;
+create table voterfiles_sos.split_march2017 (county text
+,precinct_code numeric
+,split_code text
+,district_code text
+,district_type text
+,district_name text
 );
 
-COPY voterfiles_sos.split_junemid2016 FROM '/Users/Garrett/Desktop/EX-003 Master Voter List/SPLIT_DISTRICTS_06_15_2016_04_19_27.TXT' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-SELECT COUNT(*) FROM voterfiles_sos.split_junemid2016;
+copy voterfiles_sos.split_march2017 from '/users/garrett/desktop/ex-003 master voter list/SPLIT_DISTRICTS_03_01_2017_01_25_47.TXT' with csv header delimiter as ',' encoding 'windows-1251';
+select count(*) from voterfiles_sos.split_march2017;

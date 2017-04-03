@@ -1,0 +1,844 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cohort",
+				"cohorts_20160914"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"date",
+				"datereg"
+			],
+			[
+				"pledge",
+				"pledge_card1"
+			],
+			[
+				"canvass",
+				"canvass_result"
+			],
+			[
+				"date_c",
+				"datetime_canvassed"
+			],
+			[
+				"ce",
+				"ce18_2016"
+			],
+			[
+				"dropoff3",
+				"dropoff3_loc_id"
+			],
+			[
+				"dropoff2",
+				"dropoff2_loc_id"
+			],
+			[
+				"voter_edcuation",
+				"voter_education_sd"
+			],
+			[
+				"fsa",
+				"fsa_gotv"
+			],
+			[
+				"early",
+				"early_voters"
+			],
+			[
+				"voterfi",
+				"voterfiles_van"
+			],
+			[
+				"ealry_",
+				"early_voters"
+			],
+			[
+				"row",
+				"row_num"
+			],
+			[
+				"september",
+				"voterfiles_sos.split_september2016\t(Table)"
+			],
+			[
+				"vote",
+				"vote_plan2"
+			],
+			[
+				"conta",
+				"contact_history.lfp_today\t(Table)"
+			],
+			[
+				"candidate_Id",
+				"candidate_id_strong"
+			],
+			[
+				"august2016_m",
+				"august2016_med_low_p"
+			],
+			[
+				"august2016_me",
+				"august2016_med_high_p"
+			],
+			[
+				"august2016_con",
+				"august2016_cons_gotv"
+			],
+			[
+				"votin",
+				"voting_locations.vspc_individual_primary2016\t(Table)"
+			],
+			[
+				"voting",
+				"voting_locations.vspc_primary2016\t(Table)"
+			],
+			[
+				"precinc",
+				"shapefiles.precincts_pop_centroid\t(Table)"
+			],
+			[
+				"prec",
+				"shapefiles.precincts_geo_centroid\t(Table)"
+			],
+			[
+				"april2016",
+				"april2016precinctmatch"
+			],
+			[
+				"shapefil",
+				"shapefiles.precincts\t(Table)"
+			],
+			[
+				"voterfile",
+				"voterfiles_sos.april2016\t(Table)"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"precinct",
+				"precinct_int\tstatement"
+			],
+			[
+				"precin",
+				"precinct_int\tstatement"
+			],
+			[
+				"voterfiles",
+				"voterfiles_sos.march2016\t(Table)"
+			],
+			[
+				"march",
+				"voterfiles_sos.march2016\t(Table)"
+			],
+			[
+				"m",
+				"voterfiles_sos.march2016\t(Table)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 140.0,
+		"last_filter": "sql",
+		"selected_items":
+		[
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"run cu",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"run curr",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"anaconda",
+				"Anaconda: Goto Python object"
+			],
+			[
+				"text",
+				"Text Pastry: Range"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"post",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"PLAIN",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sor",
+				"Sort Lines"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"per",
+				"Permute Lines: Unique"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"mark",
+				"MarkdownEditing: Switch List Bullet Type"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"chagn",
+				"ChangeQuotes"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"st: ",
+				"ST: Select Connection"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"st",
+				"ST: Format Current SQL File"
+			],
+			[
+				"syntax: cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"st:",
+				"ST: Select Connection"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"ST:",
+				"ST: Select Connection"
+			],
+			[
+				"st: sele",
+				"ST: Select Connection"
+			],
+			[
+				"Preference",
+				"Preferences: Settings - User"
+			],
+			[
+				"ST: Setup",
+				"ST: Setup Connections"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"sublime.log_comands(True)",
+			"sublime.log_input(True)",
+			"pip install pyopenssl",
+			"$ pip install pyopenssl",
+			"pip install pyopenssl",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Garrett/OneDrive - America Votes/Personal/Programming/SQL",
+		"/Users/Garrett/OneDrive - America Votes/Personal/Programming/SQL/gis"
+	],
+	"file_history":
+	[
+		"/Users/Garrett/OneDrive - America Votes/Personal/Programming/SQL/gis/find voter distance travel.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/sos voterfile import.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/sos split districts import.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/mail vs inperson votes.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/same day registration.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gis/find voter distance travel.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/sos vote history details import.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/import van backup.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/sos vote history import.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gis/voting location match.sql",
+		"/Users/Garrett/Dropbox/Apps/Notes/2016-12-21 PNA Call.txt",
+		"/Users/Garrett/Desktop/2016-09-29 SD-19 Inactives.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/Python/SCOREPulldown.py",
+		"/Users/Garrett/Desktop/SCOREPulldown.py",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gru import.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/fsa gotv contact history.sql",
+		"/Users/Garrett/Reportercode/sqlcode/ev dashboard.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/most progressive voting locations.sql",
+		"/Users/Garrett/Desktop/reporter.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/universe penetration.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gis/generate pop centroid.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/judicial district van export.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/Python/gspread.py",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/early vote report.sql",
+		"/Users/Garrett/Reportercode/sqlcode/scoresync-inpersontablecreate.sql",
+		"/Users/Garrett/Reportercode/sqlcode/mailballots.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gis/three closest voting locations.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/voter edcuation.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gssa gotv counts.sql",
+		"/Users/Garrett/Desktop/convert.vbs",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/pledge card mailer.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/early votes by district and day.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/fsa contact history.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gis/verify voting locations.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/import statefileid key.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/import early vote.sql",
+		"/Users/Garrett/Downloads/b3e54cb5cc6844639926d0c5e75162581-export.txt",
+		"/Users/Garrett/Desktop/2016-10-04 Full Inactive File.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/import inactives.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/geocode save.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/import cohorts.sql",
+		"/Users/Garrett/Downloads/complete/Masters.of.Sex.S04E01.720p.HDTV.x264-BATV/RARBG.com.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/consolidated cohort import.sql",
+		"/Users/Garrett/Dropbox/Apps/Notes/2016-03-04 Analyst Institute Briefing.txt",
+		"/Users/Garrett/Desktop/lfpexport.txt",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/import van canvass results.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/weekly partner walk report.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/weekly partner walk report",
+		"/Users/Garrett/Downloads/GSSAPollingExport20160724-3227802557.txt",
+		"/Users/Garrett/Library/Containers/it.bloop.airmail2/Data/Library/Application Support/Airmail/General/Tmp/StandardText20160719-21201504216.txt",
+		"/Users/Garrett/Downloads/GSSAPollingExport20160722-20569174966.txt",
+		"/Users/Garrett/Downloads/FacebookMatchExport20160722-9481642473.txt",
+		"/Users/Garrett/Downloads/StandardText20160720-14186913995.txt",
+		"/Users/Garrett/Downloads/StandardText20160719-21201504216.txt",
+		"/Users/Garrett/Downloads/CoCOExportReal20160719-4893354899.txt",
+		"/Users/Garrett/Downloads/export1031091-750044044.txt",
+		"/Users/Garrett/Dropbox/Apps/Notes/2016-05-12 Vote Choice Training.txt",
+		"/Users/Garrett/Desktop/2016-06-29 SD-19 Persuaison Cohort.txt",
+		"/Users/Garrett/Downloads/StandardText20160714-16101580255.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/whiteboard update.sql",
+		"/Users/Garrett/Desktop/immigration.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gop primary report.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/cohort change analysis.sql",
+		"/Users/Garrett/Downloads/FacebookMatchExport20160701-13704128702.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/cohort change analysis",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/add eday diff.sql",
+		"/Users/Garrett/Desktop/gop primary report.sql",
+		"/Users/Garrett/Desktop/import archival early vote.sql",
+		"/Users/Garrett/Desktop/import 2012 early vote.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/gis/generate geo centroid.sql",
+		"/Users/Garrett/Desktop/test.sql",
+		"/Users/Garrett/Downloads/InghamExportRequests20160527-1927275619.txt",
+		"/Users/Garrett/Downloads/StandardText20160527-14327331059.txt",
+		"/Users/Garrett/Desktop/cohort export.sql",
+		"/Users/Garrett/Downloads/StandardText20160519-5454417008.txt",
+		"/Users/Garrett/Downloads/bba84376b7fd84c7689a132e90cdbb13f-export.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/registration date by partisanship.sql",
+		"/Users/Garrett/Downloads/One Colorado Bulk Deletion.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/2014 early voters by vote prop.sql",
+		"/Users/Garrett/Dropbox/Apps/Notes/SRM Notes.txt",
+		"/Users/Garrett/OneDrive - America Votes/AVCO/aa Current Planning/Latino Program/Universe/Universe Descriptions.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/rolloff hd-sd.sql",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/rolloff calculator.sql",
+		"/Users/Garrett/Downloads/ObraDinn-0.1.23-Mac/Readme.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/export cohorts.sql",
+		"/Users/Garrett/Downloads/2016-04-11 Cohorts/41116_Base_MAIL.txt",
+		"/Users/Garrett/Desktop/test.py",
+		"/Users/Garrett/Desktop/lob_test.py",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/registration update.sql",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/SQLTools/Default (OSX).sublime-keymap",
+		"/Users/Garrett/Dropbox/Personal/ferrett013.github.io/style.scss",
+		"/Users/Garrett/Dropbox/Personal/ferrett013.github.io/_layouts/default.html",
+		"/Users/Garrett/Dropbox/Personal/ferrett013.github.io/_layouts/page.html",
+		"/Users/Garrett/Dropbox/Personal/lanyon/_config.yml",
+		"/Users/Garrett/Dropbox/Personal/ferrett013.github.io/_config.yml",
+		"/Users/Garrett/Dropbox/Personal/ferrett013.github.io/404.md",
+		"/Users/Garrett/Downloads/subscriptions.xml",
+		"/Users/Garrett/OneDrive - America Votes/Personal/Python/Generate VAN Precinct Name.py",
+		"/Users/Garrett/Desktop/__pycache__/gspread.cpython-35.pyc",
+		"/Users/Garrett/Desktop/Python API-dc087116e721.json",
+		"/Users/Garrett/Desktop/Generate VAN Precinct Name.py",
+		"/Users/Garrett/Desktop/gspread.py",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/Garrett/OneDrive - America Votes/Personal/Python/ExportImport.py",
+		"/Users/Garrett/Desktop/07.10.2014/Master_Voting_History_List_Voter_Details_ Part1_07_10_2014_08_35_52.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/SQL/Votebuilder judicial district export.sql",
+		"/Users/Garrett/Downloads/ba855bee47eee48f3b04fd4f0a4daacaa-export.txt",
+		"/Users/Garrett/OneDrive - America Votes/Personal/Apps Script/Geocoder/Instructions.txt",
+		"/Users/Garrett/Documents/History of My Life/ Old Work/Colorado/Reporting/Git/workshop/CO/Weekly Report/Weekly Report.sql",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/SQLTools/SQLTools.sublime-settings",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/User/SQLTools.sublime-settings",
+		"/Users/Garrett/Library/Application Support/Sublime Text 3/Packages/User/SQLToolsConnections.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"november2016",
+			"octobermid2016",
+			"\t",
+			"\"",
+			"july2016",
+			"november2016",
+			"septembermid2016",
+			"\\n,",
+			",",
+			"hd",
+			"voterfiles_sos.octobermid2016",
+			"septembermid2016",
+			"vspc",
+			"reg_status",
+			"octobermid2016",
+			"\\n",
+			"planned",
+			"\\n",
+			"vanid_statefileid_august2015",
+			"\t",
+			" timestamp",
+			" int",
+			" text",
+			"vote",
+			", ",
+			"\\n",
+			"ce19_2016",
+			"ce18_2016",
+			", ",
+			"\\n",
+			", ",
+			"pass 4",
+			", ",
+			"\t",
+			", ",
+			"\t",
+			", ",
+			"october2016",
+			"voterfiles_van.october2016",
+			"october2016",
+			", ",
+			"\t",
+			", ",
+			"\t",
+			", ",
+			"\t",
+			", ",
+			"vote_date",
+			", ",
+			"last",
+			"\t",
+			"early_voters.ce18_2016",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"_$Signature.png",
+			", ",
+			"\\n",
+			", ",
+			"\t",
+			", ",
+			"\t",
+			", ",
+			"\t",
+			"vote_date",
+			"\t",
+			", ",
+			"\t",
+			", ",
+			"\t",
+			", ",
+			"\\n",
+			", ",
+			"voterfiles_sos.october2016",
+			", ",
+			"october2016",
+			"fsa_week",
+			", ",
+			"\t",
+			", ",
+			"\t",
+			", ",
+			"primary2016",
+			"primary",
+			", ",
+			"\t",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			"279",
+			", ",
+			"\\n",
+			"contact_history",
+			"\\n",
+			", ",
+			"\t",
+			"septembermid2016",
+			"september2016",
+			"septembermid2016",
+			"early_voters.ce18_primary2016",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"january2017",
+			"december2016",
+			" ",
+			"",
+			"december2016",
+			"octobermid2016",
+			",",
+			"\\n,",
+			"voterfiles_sos.november2016",
+			"octobermid2016",
+			"dropoff",
+			"november2016",
+			", ",
+			"octobermid2016",
+			"\\n",
+			"",
+			"\\n",
+			", ",
+			"ce19_test2016",
+			"ce18_test2016",
+			"\\n",
+			", ",
+			"\\n",
+			"",
+			"\\n",
+			" ",
+			"\\n",
+			"octobermid2016",
+			"voterfiles_van.octobermid2016",
+			"octobermid2016",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"eday_diff",
+			"\\n",
+			"",
+			"\\n",
+			"contact_history.pledge_mailerkey",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			"",
+			"\\n",
+			", ",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"eday_diff",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			", ",
+			"\\n",
+			"voterfiles_sos.octobermid2016",
+			"\\n",
+			"octobermid2016",
+			"fsa_persuasion",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"2016",
+			"\\n",
+			"",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"early_voters",
+			", ",
+			"\\n",
+			"october2016",
+			"public.inactive_text",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n",
+			"october2016",
+			"\\n",
+			", ",
+			"\\n",
+			", ",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLTools Result":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SQL.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,5 +1,5 @@
-drop table if exists contact_history.v2015;
-CREATE TABLE contact_history.v2015 (vanid integer
+drop table if exists contact_history.v2016;
+create table contact_history.v2016 (vanid integer
 ,dwid integer
 ,votername varchar
 ,resultshortname varchar
@@ -13,4 +13,4 @@ CREATE TABLE contact_history.v2015 (vanid integer
 ,campaignname varchar
 ,content varchar
 ,inputtypename varchar);
-COPY contact_history.v2015 FROM '/Users/Garrett/Desktop/export.txt' WITH CSV HEADER DELIMITER AS '	' encoding 'windows-1251';
+copy contact_history.v2016 from '/users/garrett/desktop/import.txt' with csv header delimiter as '	' encoding 'windows-1251';

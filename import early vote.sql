@@ -15,7 +15,7 @@ create table early_voters.ce18_primary2016 (jurisdiction varchar
 );
 
 copy early_voters.ce18_primary2016
-	from '/Users/Garrett/Desktop/CE-018_MailBallotsReturned_28Jun_600009087_20160627_091001.txt'
+	from '/Users/Garrett/Desktop/CE-018_MailBallotsReturned_28Jun_600009087_20160630_091002.txt'
 	with csv header delimiter as ','
 ;
 
@@ -39,7 +39,7 @@ create table early_voters.ce19_primary2016 (jurisdiction varchar
 );
 
 copy early_voters.ce19_primary2016
-	from '/Users/Garrett/Desktop/CE-019_InPersonVoting_28Jun_600009087_20160627_092501.txt'
+	from '/Users/Garrett/Desktop/CE-019_InPersonVoting_28Jun_600009087_20160630_092501.txt'
 	with csv header delimiter as ','
 ;
 

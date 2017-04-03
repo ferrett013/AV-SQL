@@ -1,185 +1,189 @@
-DROP TABLE IF EXISTS voterfiles_sos.votehistory_details_nov2015;
-CREATE TABLE voterfiles_sos.votehistory_details_nov2015 (VOTER_ID	int primary key
-,COUNTY	text
-,FIRST_NAME	text
-,MIDDLE_NAME	text
-,LAST_NAME	text
-,NAME_SUFFIX	text
-,REGISTRATION_DATE	date
-,EFFECTIVE_DATE	date
-,LAST_UPDATED_DATE	date
-,OLD_VOTER_ID	text
-,HOUSE_NUM	text
-,HOUSE_SUFFIX	text
-,PRE_DIR	text
-,STREET_NAME	text
-,STREET_TYPE	text
-,POST_DIR	text
-,UNIT_TYPE	text
-,UNIT_NUM	text
-,RESIDENTIAL_ADDRESS	text
-,RESIDENTIAL_CITY	text
-,RESIDENTIAL_STATE	text
-,RESIDENTIAL_ZIP_CODE	text
-,RESIDENTIAL_ZIP_PLUS	text
-,MAILING_ADDRESS_1	text
-,MAILING_ADDRESS_2	text
-,MAILING_ADDRESS_3	text
-,MAILING_CITY	text
-,MAILING_STATE	text
-,MAILING_ZIP_CODE	text
-,MAILING_ZIP_PLUS	text
-,MAILING_COUNTRY	text
-,VOTER_STATUS	text
-,STATUS_REASON	text
-,PARTY	text
-,GENDER	text
-,BIRTH_YEAR	int
-,PRECINCT_CODE	text
-,PRECINCT_NAME	text
-,FEDERAL	text
-,CONGRESSIONAL	int
-,STATEWIDE	text
-,STATE_BOARD_OF_EDUCATION_AT_LARGE	text
-,STATE_BOARD_OF_EDUCATION	text
-,UNIVERSITY_OF_COLORADO_REGENTS_AT_LARGE	text
-,UNIVERSITY_OF_COLORADO_REGENTS	text
-,STATE_SENATE	int
-,STATE_HOUSE	int
-,JUDICIAL	text
-,REGIONAL_TRANSPORTATION_DISTRICT	text
-,CONSOLIDATED_REGIONAL_TRANSPORTATION	text
-,COUNTY_COMMISSIONER	text
-,COUNTYWIDE	text
-,MUNICIPALITY	text
-,CITY_2	text
-,CITY_WARD_PRECINCT	text
-,CITY_SUB	text
-,COUNCIL	text
-,CITY_WARD_DISTRICT	text
-,SCHOOL_DISTRICT	text
-,SCHOOL_PRECINCT	text
-,COMMUNITY_COLLEGE_JUNIOR_COLLEGE_2	text
-,COMMUNITY_COLLEGE_JUNIOR_COLLEGE	text
-,AIRPORT_AUTHORITY	text
-,AMBULANCE	text
-,AMBULANCE_2	text
-,ANNEXATION	text
-,BOND_DEBT_AND_DEBT_SERVICE	text
-,BOND_DEBT_AND_DEBT_SERVICE_2	text
-,BUSINESS_IMPROVEMENT_DISTRICT	text
-,CEMETERY2	text
-,CEMETERY	text
-,CONSERVATION_DISTRICT	text
-,CONSERVATION_2	text
-,CONSERVATION_3	text
-,COUNTY_HOUSING_AUTHORITY	text
-,COUNTY_ROAD	text
-,DC_CAP_RESERVE	text
-,DC_DEBT_SERVICE	text
-,DC_INSURANCE_RESERVE	text
-,DEVELOPMENT_AUTHORITY	text
-,DOWNTOWN_DEVELOPMENT_AUTHORITY	text
-,DRAINAGE	text
-,DRAINAGE_AND_FLOOD_CONTROL	text
-,DRAINAGE_AND_FLOOD_CONTROL_2	text
-,EMERGENCY_TELEPHONE_SERVICE_AUTHORITY	text
-,FIRE_PROTECTION_DISTRICT	text
-,FIRE_PROTECTION_2	text
-,FIRE_PROTECTION_3	text
-,FIRE_PROTECTION_SUB	text
-,FOOTBALL_STADIUM	text
-,GENERAL_IMPROVEMENT_DISTRICT	text
-,GROUND_WATER_MANAGEMENT	text
-,GROUNDWATER_MANAGEMENT_2	text
-,HEALTH_SERVICE_HOSPITAL_AUTHORITY	text
-,HIGHWAY_AUTHORITY	text
-,HOSPITAL_AUTHORITY	text
-,HOSPITAL_AUTHORITY_2	text
-,HOUSING_AUTHORITY	text
-,IMPROVEMENT2	text
-,IRRIGATION	text
-,LAW_ENFORCEMENT_AUTHORITY	text
-,LIBRARY_DISTRICT	text
-,LIBRARY_SUB	text
-,LOCAL_IMPROVEMENT	text
-,LOCAL_MARKETING_DISTRICT	text
-,MAJOR_LEAGUE_BASEBALL_STADIUM	text
-,METRO_DISTRICT	text
-,METRO_DISTRICT_2	text
-,METROPOLITAN_3	text
-,METROPOLITAN_SUB	text
-,MISC_GENERAL_IMPROVEMENT	text
-,MISC_OTHER	text
-,PARK_AND_RECREATION_DISTRICT	text
-,PARK_AND_RECREATION_DISTRICT_2	text
-,PARK_AND_RECREATION_DISTRICT_3	text
-,PARK_AND_RECREATION_DISTRICT_4	text
-,PARK_AND_RECREATION_DISTRICT_5	text
-,PARK_AND_RECREATION_SUB	text
-,PROPOSED_DISTRICT	text
-,PROPOSED_DISTRICT_2	text
-,PUBLIC_IMPROVEMENT_DISTRICT	text
-,PUBLIC_IMPROVEMENT_DISTRICT_2	text
-,RECREATION_TRANSLATOR	text
-,REGIONAL_HOUSING_AUTHORITY	text
-,REGIONAL_SERVICE_AUTHORITY	text
-,RIVER_POWER_AUTHORITY	text
-,ROAD_AND_BRIDGE	text
-,SANITATION_DISTRICT	text
-,SANITATION_DISTRICT_2	text
-,SCIENTIFIC_CULTURAL_FACILITIES	text
-,SCIENTIFIC_CULTURAL_FACILITIES_SUB	text
-,SEWER_IMPROVEMENT_DISTRICT	text
-,SOIL_CONSERVATION_TAX_AREA	text
-,SPECIAL_IMPROVEMENT_DISTRICT	text
-,SPECIAL_IMPROVEMENT_MAINTENANCE	text
-,TAX_AREA	text
-,TRANSPORTATION_AUTHORITY_2	text
-,TRANSPORTATION_AUTHORITY_DISTRICT	text
-,UNINCORPORATED	text
-,UNINCORPORATED_2	text
-,URBAN_RENEWAL_REINVESTMENT_AUTHORITY	text
-,WATER_AND_SANITATION_DISTRICT	text
-,WATER_AND_SANITATION_DISTRICT_2	text
-,WATER_AND_SANITATION_DISTRICT_3	text
-,WATER_CONSERVANCY	text
-,WATER_CONSERVANCY_2	text
-,WATER_CONSERVANCY_3	text
-,WATER_CONSERVATION	text
-,WATER_CONSERVATION_2	text
-,WATER_DISTRICT	text
-,WATER_DISTRICT_2	text
-,WATER_DISTRICT_SUB	text
-,WATER_QUALITY_AUTHORITY	text
-,WEED_AND_PEST_CONTROL	text
+drop table if exists voterfiles_sos.votehistory_details_december2016;
+create table voterfiles_sos.votehistory_details_december2016 (voter_id int primary key
+,county text
+,first_name text
+,middle_name text
+,last_name text
+,name_suffix text
+,registration_date date
+,effective_date date
+,last_updated_date date
+,old_voter_id text
+,phone_num text
+,house_num text
+,house_suffix text
+,pre_dir text
+,street_name text
+,street_type text
+,post_dir text
+,unit_type text
+,unit_num text
+,residential_address text
+,residential_city text
+,residential_state text
+,residential_zip_code text
+,residential_zip_plus text
+,mailing_address_1 text
+,mailing_address_2 text
+,mailing_address_3 text
+,mailing_city text
+,mailing_state text
+,mailing_zip_code text
+,mailing_zip_plus text
+,mailing_country text
+,voter_status text
+,status_reason text
+,party text
+,gender text
+,birth_year int
+,precinct_code text
+,precinct_name text
+,federal text
+,congressional int
+,statewide text
+,state_board_of_education_at_large text
+,state_board_of_education text
+,university_of_colorado_regents_at_large text
+,university_of_colorado_regents text
+,state_senate int
+,state_house int
+,judicial text
+,regional_transportation_district text
+,consolidated_regional_transportation text
+,county_commissioner text
+,countywide text
+,municipality text
+,city_2 text
+,city_ward_precinct text
+,city_sub text
+,council text
+,city_ward_district text
+,school_district text
+,school_precinct text
+,community_college_junior_college_2 text
+,community_college_junior_college text
+,airport_authority text
+,ambulance text
+,ambulance_2 text
+,annexation text
+,bond_debt_and_debt_service text
+,bond_debt_and_debt_service_2 text
+,business_improvement_district text
+,cemetery2 text
+,cemetery text
+,conservation_district text
+,conservation_2 text
+,conservation_3 text
+,county_housing_authority text
+,county_road text
+,dc_cap_reserve text
+,dc_debt_service text
+,dc_insurance_reserve text
+,development_authority text
+,downtown_development_authority text
+,drainage text
+,drainage_and_flood_control text
+,drainage_and_flood_control_2 text
+,emergency_telephone_service_authority text
+,fire_protection_district text
+,fire_protection_2 text
+,fire_protection_3 text
+,fire_protection_sub text
+,football_stadium text
+,general_improvement_district text
+,ground_water_management text
+,groundwater_management_2 text
+,health_service_hospital_authority text
+,highway_authority text
+,hospital_authority text
+,hospital_authority_2 text
+,housing_authority text
+,improvement2 text
+,irrigation text
+,law_enforcement_authority text
+,library_district text
+,library_sub text
+,local_improvement text
+,local_marketing_district text
+,major_league_baseball_stadium text
+,metro_district text
+,metro_district_2 text
+,metropolitan_3 text
+,metropolitan_sub text
+,misc_general_improvement text
+,misc_other text
+,park_and_recreation_district text
+,park_and_recreation_district_2 text
+,park_and_recreation_district_3 text
+,park_and_recreation_district_4 text
+,park_and_recreation_district_5 text
+,park_and_recreation_sub text
+,proposed_district text
+,proposed_district_2 text
+,public_improvement_district text
+,public_improvement_district_2 text
+,recreation_translator text
+,regional_housing_authority text
+,regional_service_authority text
+,river_power_authority text
+,road_and_bridge text
+,sanitation_district text
+,sanitation_district_2 text
+,scientific_cultural_facilities text
+,scientific_cultural_facilities_sub text
+,sewer_improvement_district text
+,soil_conservation_tax_area text
+,special_improvement_district text
+,special_improvement_maintenance text
+,tax_area text
+,transportation_authority_2 text
+,transportation_authority_district text
+,unincorporated text
+,unincorporated_2 text
+,urban_renewal_reinvestment_authority text
+,water_and_sanitation_district text
+,water_and_sanitation_district_2 text
+,water_and_sanitation_district_3 text
+,water_conservancy text
+,water_conservancy_2 text
+,water_conservancy_3 text
+,water_conservation text
+,water_conservation_2 text
+,water_district text
+,water_district_2 text
+,water_district_sub text
+,water_quality_authority text
+,weed_and_pest_control text
 );
 
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed1.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed2.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed3.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed4.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed5.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed6.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed7.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed8.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed9.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed10.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed11.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed12.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed13.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed14.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed15.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed16.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed17.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed18.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed19.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed20.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed21.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed22.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed23.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed24.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
-COPY voterfiles_sos.votehistory_details_nov2015 FROM '/Users/Garrett/Desktop/11.23.2015/processed25.txt' WITH CSV HEADER DELIMITER AS ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part7_12_05_2016_01_32_15.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part9_12_05_2016_01_34_21.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part12_12_05_2016_01_37_31.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part13_12_05_2016_01_38_33.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part24_12_05_2016_01_50_27.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part3_12_05_2016_01_28_09.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part4_12_05_2016_01_29_11.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part5_12_05_2016_01_30_12.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part6_12_05_2016_01_31_13.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part10_12_05_2016_01_35_23.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part22_12_05_2016_01_48_14.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part15_12_05_2016_01_40_42.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part18_12_05_2016_01_43_55.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part2_12_05_2016_01_27_08.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part20_12_05_2016_01_46_05.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part1_12_05_2016_13_14_06.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part8_12_05_2016_01_33_18.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part21_12_05_2016_01_47_10.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part26_12_05_2016_01_52_40.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part23_12_05_2016_01_49_20.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part25_12_05_2016_01_51_33.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part14_12_05_2016_01_39_38.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part19_12_05_2016_01_45_00.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part11_12_05_2016_01_36_27.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part16_12_05_2016_01_41_47.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part17_12_05_2016_01_42_51.txt' with csv header delimiter as ',' encoding 'windows-1251';
+copy voterfiles_sos.votehistory_details_december2016 from '/users/garrett/desktop/Master_Voting_History_List_Voter_Details_ Part27_12_05_2016_01_53_46.txt' with csv header delimiter as ',' encoding 'windows-1251';
 
-SELECT COUNT(*) FROM voterfiles_sos.votehistory_details_nov2015;
+
+select count(*) from voterfiles_sos.votehistory_details_december2016;
 @beep;

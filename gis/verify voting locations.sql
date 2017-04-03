@@ -14,21 +14,28 @@ copy voting_locations.van_locations
 	with csv header delimiter as '	'
 ;
 
-select count(case when vspc_location is null then 1 else null end) as vspc_loc
-,count(case when vspc_address is null then 1 else null end) as vspc_add
-,count(case when vspc_schedule is null then 1 else null end) as vspc_sch
+select count(case when a.vspc_location <> b.location then 1 else null end) as vspc_loc
+,count(case when a.vspc_address <> b.address then 1 else null end) as vspc_add
+,count(case when a.vspc_schedule <> b.schedule then 1 else null end) as vspc_sch
 from voting_locations.van_locations a
-join voting_locations.vspc_individual_primary2016 b using (vanid)
+join voting_locations.vspc_individual_general2016 b using (vanid)
 where b.location is not null and b.address is not null and b.schedule is not null;
 ;
 
-select count(case when dropoff_location is null then 1 else null end) as dropoff_loc
-,count(case when dropoff_address is null then 1 else null end) as dropoff_add
-,count(case when dropoff_schedule is null then 1 else null end) as dropoff_add
+select count(case when b.dropoff_location <> b.location then 1 else null end) as dropoff_loc
+,count(case when b.dropoff_address <> b.address then 1 else null end) as dropoff_add
+,count(case when b.dropoff_schedule <> b.schedule then 1 else null end) as dropoff_add
 from voting_locations.van_locations a
-join voting_locations.dropoff_individual_primary2016 b using (vanid)
+join voting_locations.dropoff_individual_general2016 b using (vanid)
 where b.location is not null and b.address is not null and b.schedule is not null;
 
+select * from voting_locations.van_locations a
+join voting_locations.vspc_individual_general2016 b using (vanid)
+where a.vspc_location <> b.location and a.vspc_address <> b.address and a.vspc_schedule <> b.schedule
+
+select * from voting_locations.van_locations a
+join voting_locations.dropoff_individual_general2016 b using (vanid)
+where a.dropoff_location <> b.location and a.dropoff_address <> b.address and a.dropoff_schedule <> b.schedule
 
 --Export Missing Fields--
 
