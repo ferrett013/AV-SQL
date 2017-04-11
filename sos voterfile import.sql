@@ -19,7 +19,6 @@ create table voterfiles_sos.april2017 (voter_id integer primary key
 ,post_dir text
 ,unit_type text
 ,unit_num text
-,address_non_std text
 ,residential_address text
 ,residential_city text
 ,residential_state char(2)
